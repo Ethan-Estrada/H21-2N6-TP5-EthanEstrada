@@ -10,7 +10,7 @@ namespace BaladeurMultiFormats
 
     public partial class FrmPrincipal : Form
     {
-        public const string APP_INFO = "(Matériel)";
+        public const string APP_INFO = "(2056092)";
 
         #region Propriété : MonHistorique
         public Historique MonHistorique { get; }
@@ -74,5 +74,10 @@ namespace BaladeurMultiFormats
             Close();
         }
         #endregion
+
+        private void picBaladeur_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
